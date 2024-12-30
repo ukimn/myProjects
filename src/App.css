@@ -40,3 +40,52 @@ body{
 .button:hover{
   transform: scale(1.1);
 }
+
+
+@media  screen and (max-width: 600px){
+  .calculator{
+    padding: 5px;
+    width: 300px;
+    position: absolute;
+    margin-right: 90px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .input > input[type="text"]{
+    padding: 5px;
+    border-radius: 10px;
+    font-size: 1.3rem;
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+  .numbers{
+    display: grid;
+    grid-template-columns: 90px 90px 90px;
+  }
+}
+
+@media screen and (min-width: 1024px){
+  .calculator{
+    padding: 20px;
+    width: 500px;
+    position: absolute;
+    margin-right: 90px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .input > input[type="text"]{
+    padding: 20px;
+    position: relative;
+    top: 0;
+    left: 0;
+    min-width: 80%;
+    margin: 0 10px 0 10px;
+  }
+  .number{
+    display: grid;
+    grid-template-columns: 100px 100px 100px 100px 100px;
+  }
+}
