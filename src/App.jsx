@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Link } from "react-router-dom";
 import "./App.css";
 
 const App = () => {
@@ -30,8 +31,31 @@ const App = () => {
         "to kill thier feelings",
         "to sleep faster",
       ],
-      choice: "to have fun",
+      choice: "to feel better",
       id: 3,
+    },
+    {
+      question: "What does the HTML stand for?",
+      options: [
+        "Hyper Text Markup Language",
+        "Hyper Tource Markup Product",
+        "Hyper Tree Markup Thing",
+        "Hyper Train Machine Loaned",
+      ],
+      choice: "Hyper Text Markup Language",
+      id: 4,
+    },
+    {
+      question: "Who is the creator of this quiz?",
+      options: ["Moaath", "Ahmed", "Sajed", "Adam"],
+      choice: "Moaath",
+      id: 5,
+    },
+    {
+      question: "when did the world war 2 start?",
+      options: ["1914", "1949", "1954", "1934"],
+      choice: "1934",
+      id: 6,
     },
   ];
 
@@ -78,6 +102,14 @@ const App = () => {
           </div>
         </div>
       </div>
+      <Link to={"/arabicEdition"}>
+        <button
+          className="button"
+          style={{ marginTop: "40px", textAlign: "center", fontSize: "2rem" }}
+        >
+          Arabic Edition
+        </button>
+      </Link>
     </>
   );
 };
