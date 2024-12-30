@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat+Brush&family=Playwrite+AU+VIC+Guides&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Silkscreen:wght@400;700&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&family=Zain:wght@200;300;400;700;800;900&display=swap');@import url('https://fonts.googleapis.com/css2?family=Caveat+Brush&family=Playwrite+AU+VIC+Guides&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Silkscreen:wght@400;700&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&family=Zain:wght@200;300;400;700;800;900&display=swap');
+
+
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(5, 82, 137);
+    font-family: "Roboto", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.card{
+    border: 5px solid rgb(3, 51, 65);
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(3, 51, 72);
+    color: #ffffff;
+    box-shadow: -5px 5px 5px rgb(3, 51, 40);
+    transition: 0.3s ease;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.card:hover{
+    box-shadow: -10px 10px 10px rgb(3, 51, 40);
+    transform: scale(1.1);
+}
+
+.right{
+    margin-right: 50px;
+}
+
+.button{
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    font-weight: 600;
+    cursor: pointer;
+    margin: 5px;
+    background-color: rgb(3, 51, 120);
+    color: #ffffff;
+    transition: 0.3s ease;
+}
+
+.button:hover{
+    border-radius: 20px;
+}
+
+
+.options{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.buttonAnswer{
+    padding: 8px;
+    border: none;
+    border-radius: 10px;
+    font-weight: 600;
+    cursor: pointer;
+    margin: 5px;
+    background-color: rgb(3, 51, 120);
+    color: #ffffff;
+    transition: 0.3s ease;
+}
+
+.buttonAnswer:hover{
+    border-radius: 20px;
+}
